@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@500;700&family=Lobster&family=Montserrat:wght@400;700&display=swap');
+*{
+    justify-content: center;
+
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Fraunces', serif;
+
+    
+}
+.container{
+    display: flex;
+    padding-top: 80px;
+}  
+.sub-container2{
+    width: 260px;
+background-color: hsl(0, 0%, 100%);
+padding-left: 20px;
+padding-top: 5px;
+padding-right: 0px;
+height: 480px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+img{
+    width: 250px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 100%;
+}
+h1{
+   width: 24s0px; 
+}
+.write-up{
+   width: 190px;
+   line-height: 22px;
+    opacity: 0.5;
+}
+p{
+    font-size: 14px;
+}
+.prices{
+    display: flex;
+}
+.first-price{
+    font-size:30px;
+    font-weight:bolder;
+    padding-right: 20px;
+
+}
+.second-price{
+padding-top: 25px;
+opacity: 0.5;
+}
+.cart{
+    width: 12px;
+    padding-top: 14px;
+}
+.least{
+    display: flex;
+    gap: 10px;
+    background-color: hsl(158, 36%, 37%);
+    width: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+p.title{
+    word-spacing: 5px;
+}
